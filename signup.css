@@ -1,0 +1,132 @@
+
+.arrange{
+                background-color: black;
+                color: aliceblue; 
+                padding: 10%;
+                align-content: center;
+                display: flex;
+              }
+              .main-column{
+              
+              background-image:linear-gradient(to bottom ,rgb(13, 6, 6), rgb(83, 11, 107) 50% ,rgb(13, 6, 6));
+              background-repeat: no-repeat;
+              align-content:end;
+              }
+              .pipe{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+              }
+              .started{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              }
+              .complete{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+              }
+               a.button1:link,a.button1:visited{
+            background-color:rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+            border: 2px solid rgb(29, 2, 28);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            
+        }
+        a.button1:hover,a.button1:active{
+            background-color:rgb(0, 0, 0) ;
+            color: rgb(255, 255, 255);
+        }
+         a.button2:link,a.button2:visited{
+            background-color:rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+            border: 2px solid rgb(29, 2, 28);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            
+        }
+        a.button2:hover,a.button2:active{
+            background-color:rgb(0, 0, 0) ;
+            color: rgb(255, 255, 255);
+        }
+         a.button3:link,a.button3:visited{
+            background-color:rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+            border: 2px solid rgb(29, 2, 28);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            
+        }
+        a.button3:hover,a.button3:active{
+            background-color:rgb(0, 0, 0) ;
+            color: rgb(255, 255, 255);
+        }
+        .login{
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          display:list-item;
+        }
+        .button1,.button2,.button3{
+          flex:30%;
+        }
+         a.button4:link,a.button4:visited{
+            background-color:rgb(0, 0, 0);
+            color:rgb(255, 255, 255);
+            border: 2px solid rgb(50, 50, 50);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            
+        }
+         a.button5:link,a.button5:visited{
+            background-color:rgb(0, 0, 0);
+            color:rgb(255, 255, 255);
+            border: 2px solid rgb(50, 50, 50);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            
+        }
+        .names{
+          align-content: center;
+          text-align: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          display:inline-flex;
+          
+        }
+       
+        .sets{
+          display:contents;
+        }
+       .sidebar-one{
+                background-color: black;
+                align-content: center;
+              }
+              .main-column{
+                flex: 100;
+                order:1;
+              }  
+              .sidebar-one{
+                flex: 80;
+                order:2;
+              }
+              .arrange{
+                text-align:center;
+              }
+              .signup{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size:large;
+                text-decoration: solid;
+              }
+              .style{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+              }
